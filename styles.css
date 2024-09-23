@@ -296,3 +296,80 @@ body {
 .wallet-created button:hover {
     background-color: #42a5f5; /* Hover color */
 }
+
+
+
+
+
+
+
+/* Modal styling */
+.pmodal {
+    
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.pmodal-content {
+    background-color: #558fb5; /* White background */
+    margin: 10% auto; /* Center the modal */
+    padding: 20px; /* Padding inside the modal */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: 80%; /* Modal width */
+    max-width: 600px; /* Max width for larger screens */
+}
+
+h2 {
+    margin-top: 0; /* Remove margin from the top of the heading */
+}
+
+
+/*how it works*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.how-it-works-container {
+    background-color: #64b5f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: #000000;
+}
+
+.step {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #007bff; /* Accent color */
+}
+
+button {
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
